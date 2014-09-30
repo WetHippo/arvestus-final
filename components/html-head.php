@@ -7,4 +7,6 @@
 <link rel="stylesheet" href="../stylesheets/main.css">
 
 <!-- Site title -->
-<title>SVP - Arvestustöö</title>
+<title><?php 
+	echo $site_html_title;
+?></title>
